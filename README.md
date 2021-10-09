@@ -42,7 +42,25 @@ Scores by school spending
 Scores by school size
 Scores by school type
 
-![image1](\Resources\New_Bottom_5_Schools.png)
+![image1](/Resources/New_Bottom_5_Schools.png)
+![image2](/Resources/Old_Bottom_5_Schools.png)
+![image3](/Resources/New_District Summary.png)
+![image4](/Resources/Old_District Summary.png)
+![image5](/Resources/New_Math_by_Grade.png)
+![image6](/Resources/Old_Math_by_Grade.png)
+![image7](/Resources/New_per_School_Summary.png)
+![image8](/Resources/Old_per_School_Summary.png)
+![image9](/Resources/New_per_School_Summary_Excl_Grage_9.png)
+![image10](/Resources/New_Reading_by_Grade.png)
+![image11](/Resources/Old_Reading_by_Grade.png)
+![image12](/Resources/New_School_Type.png)
+![image13](/Resources/Old_School_Type.png)
+![image14](/Resources/New_Size_Ranges.png)
+![image15](/Resources/Old_Size_Rangse.png)
+![image16](/Resources/New_Spending_Ranges.png)
+![image17](/Resources/Old_Spending_Rangse.png)
+![image18](/Resources/New_Top_5_Schools.png)
+![image19](/Resources/Old_Top_5_Schools.png)
 
 ## Summary ## 
 
