@@ -1,31 +1,33 @@
 # School District Analysis
 ## Overview ##
-Explain the purpose of this analysis.
+The Office of Chief Data Scientist of a City School Distric has requested to aggregate various student and school data and reveal the trends in school performance in order to make decisions on the school budgets and priorities.
 
 ### Initial Analysis ###
-Here is the list of deliverables for the analysis of the school district: 
-
-A high-level snapshot of the district's key metrics, presented in a table format
-An overview of the key metrics for each school, presented in a table format
-Tables presenting each of the following metrics:
-Top 5 and bottom 5 performing schools, based on the overall passing rate
-The average math score received by students in each grade level at each school
-The average reading score received by students in each grade level at each school
-School performance based on the budget per student
-School performance based on the school size 
-School performance based on the type of school
+The initial project scope included the following analysis of the school district deliverables: 
+- A high-level snapshot of the district's key metrics, presented in a table format
+- An overview of the key metrics for each school presented in a table format
+- Tables presenting each of the following metrics:
+  - Top 5 and bottom 5 performing schools, based on the overall passing rate
+  - The average math score received by students in each grade level at each school
+  - The average reading score received by students in each grade level at each school
+  - School performance based on the budget per student
+  - School performance based on the school size 
+  - School performance based on the type of school
 
 ### Revised Analysis ###
+Upon completion of the initial project scope, the School Board has determined that the student raw data records demonstrated evidence of academic dishonesty. Specifically, reading and math grades for Thomas High School ninth grade students appeared to have been altered. Consequently, second phase of the project has been approved that required the following deliverables:
+- Replacing the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact
+- Rerunning the school district analysis 
+- Producing a report to describe how these changes affected the overall analysis
 
-The school board has notified Maria and her supervisor that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards and have turned to Maria for help. She has asked you to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once you’ve replaced the math and reading scores, Maria would like you to repeat the school district analysis that you did in this module and write up a report to describe how these changes affected the overall analysis.
+### Resources and Disclosures ###
+The analysis of school data has used  following open-software packages: 
+- Anaconda 
+- Jupyter Notebook
 
-### Resources ###
+The city school district data has been published and can be located [here](https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-online/module_4/schools_complete.csv).
 
-The analysis of school data will require you to use Anaconda, a free, open-source distribution software for over 1,500 packages suitable for Windows and macOS. One of those packages is Jupyter Notebook. 
-
-Source1(https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-online/module_4/schools_complete.csv)
-
-Source2(https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-online/module_4/students_complete.csv)
+In compliance with the Family Education Rights and Privacy Act (1974) that protects the privacy of all student educational records in the US, the student names and IDs have been altered and do not represent the personally identifiable infromation. The altered student data can be found [here](https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-online/module_4/students_complete.csv).
 
 ## Results ##
 
@@ -39,6 +41,8 @@ Math and reading scores by grade
 Scores by school spending
 Scores by school size
 Scores by school type
+
+![image1](\Resources\New_Bottom_5_Schools.png)
 
 ## Summary ## 
 
