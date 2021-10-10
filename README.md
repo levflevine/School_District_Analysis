@@ -71,10 +71,19 @@ The ***initial analysis*** has generated the following metrics.
   ![image13](/Resources/Old_School_Type.png)
 
 ### Revised Analysis: Deliverable 1 ###
+The altered student score records have been identified based on the following criteria: 
+- School: Thomas High School
+- Grade: 9
+- Subjects: Reading and Math
+
+Then, the reading and math scores for the ninth graders in Thomas High school have been replaced with NaNs. An example of the resulting DataFrame is below.
+
+![image00](/Resources/New_Student_Scores_by_Grade.png)
 
 ### Revised Analysis: Deliverable 2 ###
+To eliminate the impact of the altered 9th grade math and reading scores at Thomas High School, we excluded the impacted scores and the corresponding student records from the analysis and rerun the entire distric school metrics based on a reduced dataset.
 
-The ***revised analysis*** has generated the following metrics.
+The ***rerunning the analysis*** has generated the following ***revised metrics***.
 
 **1. A high-level snapshot of the district's key metrics, presented in a table format**
 ![image4](/Resources/New_District_Summary.png)
