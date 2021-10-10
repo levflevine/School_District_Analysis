@@ -87,10 +87,28 @@ The ***rerunning the analysis*** has generated the following ***revised metrics*
 
 **1. A high-level snapshot of the district's key metrics, presented in a table format**
 ![image4](/Resources/New_District_Summary.png)
-The distric summary
+
+In the revised analysis, the **distric summary has been affected** as follows.
+
+| Metrics | Revised Analysis | Initial Analysis | Impact |
+|-------|-------|------|-------|
+|Average Math Score | 78.9   | 79.0 | Has been reduced in the revised analysis  |
+|Average Reading Score | 81.9   | 81.9 | Unchanged (changed below the level of material significance)   |
+|% Passing Math |  74.8%  | 75.0% |  Has been reduced in the revised analysis |
+|% Passing Reading | 85.7%   | 85.8% | Has been reduced in the revised analysis  |
+|% Passing Overall |  64.9%  | 65.2 | Has been reduced in the revised analysis  |
 
 **2. An overview of the key metrics for each school presented in a table format**
 ![image8](/Resources/New_per_School_Summary_Excl_Grade_9.png)
+
+In the revised analysis, only one school's metrics got **impacted: the metrics of Thomas High School** (below are rounded to 2 decimal points)
+| Metrics | Revised Analysis | Initial Analysis | Impact |
+|-------|-------|------|-------|
+|Average Math Score | 83.35   | 83.42 | Has been reduced in the revised analysis  |
+|Average Reading Score | 83.90   | 83.85 | Has been increased in the revised analysis   |
+|% Passing Math |  93.19%  | 93.27% |  Has been reduced in the revised analysis |
+|% Passing Reading | 97.02%   | 97.31% | Has been reduced in the revised analysis  |
+|% Passing Overall |  90.63%  | 90.95% | Has been reduced in the revised analysis  |
 
 **3. Tables presenting each of the following metrics:**
 
@@ -99,39 +117,32 @@ The distric summary
     Top 5 Schools in the District
   ![image19](/Resources/New_Top_5_Schools.png)
   
+Replacing the ninth graders’ math and reading scores **did not affect Thomas High School’s performance relative to the other schools** : they maintained the second position in the Top 5 schools in the District. However, the marginal advantange that Thomas High School had to Griffin High Scholl has shrunk.
+    
     Bottom 5 Schools in the District
   ![image2](/Resources/New_Bottom_5_Schools.png)
   
     3.b. The average math score received by students in each grade level at each school
   ![image6](/Resources/New_Math_by_Grade.png)
   
+Only one metrics has changed in the table as a result of the revised analysis: **Thomas High School Math scores for 9th grade students**: In the revised analysis, we exclude the scores from consideration and they show as *NaN*; in the initial analysis, the Math score for 9th graders have been *83.6*
+  
     3.c. The average reading score received by students in each grade level at each school
   ![image11](/Resources/New_Reading_by_Grade.png)
   
+Only one metrics has changed in the Table as a result of the revised analysis: **Thomas High School Reading scores for 9th grade students**: In the revised analysis, we exclude the scores from consideration and they show as *NaN*; in the initial analysis, the Reading score for 9th graders have been *83.7*
+  
     3.d. School performance based on the budget per student
   ![image17](/Resources/New_Spending_Ranges.png)
-  
+In the revised analysis these **metrics have not changed** (based on the level of materiality).
+
     3.e. School performance based on the school size 
   ![image15](/Resources/New_Size_Ranges.png)
-  
+In the revised analysis these **metrics have not changed** (based on the level of materiality).
+    
     3.f. School performance based on the type of school
   ![image13](/Resources/New_School_Type.png)
-
-
-Using bulleted lists and images of DataFrames as support, address the following questions.
-
-How is the district summary affected?
-How is the school summary affected?
-How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-How does replacing the ninth-grade scores affect the following:
-Math and reading scores by grade
-Scores by school spending
-Scores by school size
-Scores by school type
-
-
-
-
+In the revised analysis these **metrics have not changed** (based on the level of materiality).
 
 ## Summary ## 
 
