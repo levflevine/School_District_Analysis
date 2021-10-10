@@ -29,6 +29,7 @@ Upon completion of the initial project scope, the School Board has determined th
 ### Resources and Disclosures ###
 The analysis of school data has used  following open-software packages: 
 - Anaconda 
+- Pandas Library
 - Jupyter Notebook
 
 The city school district data has been published and can be located [here](https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-online/module_4/schools_complete.csv).
