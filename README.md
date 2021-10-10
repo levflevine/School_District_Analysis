@@ -81,7 +81,7 @@ Then, the reading and math scores for the ninth graders in Thomas High school ha
 ![image00](/Resources/New_THS_Student_Scores_by_Grade.png)
 
 ### Revised Analysis: Deliverable 2 ###
-To eliminate the impact of the altered 9th grade math and reading scores at Thomas High School, we excluded the impacted scores and the corresponding student records from the analysis and rerun the entire distric school metrics based on a reduced dataset.
+To eliminate the impact of the altered 9th grade math and reading scores at Thomas High School, we excluded the impacted scores and the corresponding student record counts from the Score and % Passing analyses and rerun the entire distric school metrics based on a modified dataset.
 
 The ***rerunning the analysis*** has generated the following ***revised metrics***.
 
@@ -134,16 +134,30 @@ Only one metrics has changed in the Table as a result of the revised analysis: *
   
     3.d. School performance based on the budget per student
   ![image17](/Resources/New_Spending_Ranges.png)
+
 In the revised analysis these **metrics have not changed** (based on the level of materiality).
 
     3.e. School performance based on the school size 
   ![image15](/Resources/New_Size_Ranges.png)
+
 In the revised analysis these **metrics have not changed** (based on the level of materiality).
     
     3.f. School performance based on the type of school
   ![image13](/Resources/New_School_Type.png)
+
 In the revised analysis these **metrics have not changed** (based on the level of materiality).
 
 ## Summary ## 
 
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+**The revised analysis conducted on the dataset with replaced reading and math scores for Thomas High School (THS) 9th Grade students has reveals the following dymanics:**
+
+1. Thomas High School 9th grade Reading scores have been **increased**
+2. Thomas High School 9th grade Math scores have been **reduced**
+3. Thomas High School 9th grade Reading % Passing has been **reduced**
+4. Thomas High School 9th grade Math % Passing has been **reduced**
+5. Thomas High School 9th grade Overall % Passing has been **reduced**
+6. City School District Math scores, % Passing for Math, Reading, and Overall have been **reduced**
+
+Based on the analysis, certain conclusions could be made that might be helpful in the investigation of who is responsible for the student score alteration:
+1. The **Math** scores for 9th graders at THS had been unlawfully altered by increasing both, the scores and the passing %, consistently accross the 9th grade at THS
+2. The **Reading** scores for 9th graders at THS had been unlawfully altered by increasing the Scores for selected students at 9th grade that were likely failing the course while trying to keep the overall Passing % for Reading unchanged, which required to reduce the Reading scores for some other students in the 9th Grade to the level that they appeared as failed. This could be a reason why the the overall Reading scores in the revised analysis are higher than in the initial analysis.
